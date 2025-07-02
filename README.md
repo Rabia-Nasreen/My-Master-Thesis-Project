@@ -1,2 +1,24 @@
 # My-Master-Thesis-Project
 Detection of anomaly and identifying contributing features in multivariate time series
+Anomaly detection in multivariate time series data
+ is a critical task in industrial monitoring and predictive main
+tenance. Recent advances in deep learning have improved the
+ ability to detect anomaly, but accurately identifying contributing
+ features remain challenging due to the complex and dynamic
+ nature of such data. As per our research no solution is proposed
+ till now to solve this task. In this work, we performed compar
+ative study of different deep learning models. A comprehensive
+ methodology involving preprocessing, prediction, threshold-based
+ detection, and feature identification is proposed. The project
+ is structured into two key components: (i) detecting anoma
+lous time-steps based on prediction errors, and (ii) identifying
+ the features responsible for those anomalies through an error
+ matrix analysis. Various deep learning models, including FNN,
+ LSTM, FFT-augmented LSTM model, CNN, FFT-augmented
+ CNN model, RNN, Transformer, TCN, and an ensemble deep
+ learning model is compared and evaluated. Evaluation metrics
+ such as precision, recall, and F1-score are used to benchmark
+ performance across multiple server datasets. The Transformer
+ and LSTM-based models demonstrated superior performance in
+ detecting anomalies, while for feature interpretation LSTM is
+ performing better compared to all other models.
